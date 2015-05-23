@@ -1,11 +1,16 @@
 var motor = {};
 
 var GPIO = require('onoff').Gpio,
-	motor[0] = new GPIO(17, 'out'), //up
-    motor[1] = new GPIO(22, 'out'), //down
-    motor[2] = new GPIO(23, 'out'), //left
-    motor[3] = new GPIO(24, 'out'), //right
+	motor_up = new GPIO(17, 'out'), //up
+    motor_down = new GPIO(22, 'out'), //down
+    motor_left  = new GPIO(23, 'out'), //left
+    motor_right = new GPIO(24, 'out'), //right
     iv;
+
+motor[0] = motor_up;
+motor[1] = motor_down;
+motor[2] = motor_left;
+motor[3] = motor_right;
 
 var keypress = require('keypress');
 
@@ -16,28 +21,30 @@ process.stdin.on('keypress', function (ch, key) {
 	try{
 		switch(key.name){
 			case "up":
-				console.log("up");
-				motor[0].writeSync(1);
 				current_key = 0;
+				console.log("up");
+				motor[current_key].writeSync(1);
 			break;
 			case "down":
-				console.log("down");
-				motor[1].writeSync(1);
 				current_key = 1;
+				console.log("down");
+				motor[current_key].writeSync(1);
 			break;
 			case "left":
-				console.log("left");
-				motor[2].writeSync(1)
 				current_key = 2;
+				console.log("left");
+				motor[current_key].writeSync(1)
 			break;
 			case "right":
-				console.log("right");
-				motor[3].writeSync(1)
 				current_key = 3;
+				console.log("right");
+				motor[current_key].writeSync(1)
 			break;
 			case "space":
 				console.log("space");
-				motor[current_key].writeSync(0);
+				for (var i = 0; i < 4; i++) {
+					motor[i].writeSync(0);
+				};
 			break;
 		}	
 
