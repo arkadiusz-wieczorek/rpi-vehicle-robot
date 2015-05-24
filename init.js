@@ -5,12 +5,15 @@ var GPIO = require('onoff').Gpio,
     motor_down = new GPIO(22, 'out'), //down
     motor_left  = new GPIO(23, 'out'), //left
     motor_right = new GPIO(24, 'out'), //right
+    enable_1 = new GPIO(25, 'out'), //enable-1 L293DNE
     iv;
 
 motor[0] = motor_up;
 motor[1] = motor_down;
 motor[2] = motor_left;
 motor[3] = motor_right;
+
+enable_1.writeSync(1);
 
 var keypress = require('keypress');
 
