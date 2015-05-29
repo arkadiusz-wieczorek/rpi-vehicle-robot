@@ -2,7 +2,6 @@ var motor = {};
 
 var GPIO = require('onoff').Gpio,
 	motor_up = new GPIO(17, 'out'), //up
-<<<<<<< HEAD
     	motor_down = new GPIO(22, 'out'), //down
     	motor_left  = new GPIO(23, 'out'), //left
     	motor_right = new GPIO(24, 'out'), //right
@@ -11,12 +10,10 @@ var GPIO = require('onoff').Gpio,
 	light_front_right = new GPIO(20, 'out'),
 	light_rear_left = new GPIO(19, 'out'),
 	light_rear_right = new GPIO(26, 'out'),
-=======
     motor_down = new GPIO(22, 'out'), //down
     motor_left  = new GPIO(23, 'out'), //left
     motor_right = new GPIO(24, 'out'), //right
     enable_1 = new GPIO(25, 'out'), //enable-1 L293DNE
->>>>>>> 99d5d0f5f419c005608854e8573d2d7de7c926fe
     iv;
 
 motor[0] = motor_up;
