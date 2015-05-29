@@ -2,15 +2,22 @@ var motor = {};
 
 var GPIO = require('onoff').Gpio,
 	motor_up = new GPIO(17, 'out'), //up
-    motor_down = new GPIO(22, 'out'), //down
-    motor_left  = new GPIO(23, 'out'), //left
-    motor_right = new GPIO(24, 'out'), //right
+    	motor_down = new GPIO(22, 'out'), //down
+    	motor_left  = new GPIO(23, 'out'), //left
+    	motor_right = new GPIO(24, 'out'), //right
+    	enable_1 = new GPIO(25, 'out'), //enable-1 L293DNE
+	light_front_left = new GPIO(16, 'out'),
+	light_front_right = new GPIO(20, 'out'),
+	light_rear_left = new GPIO(19, 'out'),
+	light_rear_right = new GPIO(26, 'out'),
     iv;
 
 motor[0] = motor_up;
 motor[1] = motor_down;
 motor[2] = motor_left;
 motor[3] = motor_right;
+
+enable_1.writeSync(1);
 
 var keypress = require('keypress');
 
@@ -45,6 +52,29 @@ process.stdin.on('keypress', function (ch, key) {
 				for (var i = 0; i < 4; i++) {
 					motor[i].writeSync(0);
 				};
+			break;
+			case "q":
+				console.log("light-front-left on");
+				light_front_left.writeSync(1);
+			break;
+			case "w":
+				console.log("light-front-right on");
+				light_front_right.writeSync(1);
+			break;
+			case "a":
+				console.log("rear-lights on");
+				light_rear_left.writeSync(1);
+				light_rear_right.writeSync(1);
+			break;
+			case "s":
+				console.log("rear-lights off");
+				light_rear_left.writeSync(0);
+				light_rear_right.writeSync(0);
+			break;
+			case "e":
+				console.log("front-lights off");
+				light_front_left.writeSync(0);
+				light_front_right.writeSync(0);
 			break;
 		}	
 
