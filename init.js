@@ -1,88 +1,124 @@
-var motor = {};
+var stepper = {};
 
+var keypress = require('keypress');
 var GPIO = require('onoff').Gpio,
-	motor_up = new GPIO(17, 'out'), //up
-<<<<<<< HEAD
-    	motor_down = new GPIO(22, 'out'), //down
-    	motor_left  = new GPIO(23, 'out'), //left
-    	motor_right = new GPIO(24, 'out'), //right
-    	enable_1 = new GPIO(25, 'out'), //enable-1 L293DNE
-	light_front_left = new GPIO(16, 'out'),
-	light_front_right = new GPIO(20, 'out'),
-	light_rear_left = new GPIO(19, 'out'),
-	light_rear_right = new GPIO(26, 'out'),
-=======
-    motor_down = new GPIO(22, 'out'), //down
-    motor_left  = new GPIO(23, 'out'), //left
-    motor_right = new GPIO(24, 'out'), //right
-    enable_1 = new GPIO(25, 'out'), //enable-1 L293DNE
->>>>>>> 99d5d0f5f419c005608854e8573d2d7de7c926fe
-    iv;
-
-motor[0] = motor_up;
-motor[1] = motor_down;
-motor[2] = motor_left;
-motor[3] = motor_right;
+    n1 = new GPIO(6, 'out'), //motor stepper
+    n2 = new GPIO(13, 'out'),
+    n3 = new GPIO(19, 'out'),
+    n4 = new GPIO(26, 'out'),
+	motor_up = new GPIO(23, 'out'), //motor DC +/-
+	motor_down  = new GPIO(24, 'out'), //motor DC -/+
+	enable_1 = new GPIO(25, 'out'), //L293DNE
+	light_front_left = new GPIO(18, 'out'),
+	light_front_right = new GPIO(11, 'out'),
+	light_rear_left = new GPIO(16, 'out'),
+	light_rear_right = new GPIO(20, 'out'),
+	iv;
 
 enable_1.writeSync(1);
 
-var keypress = require('keypress');
+stepper[0] = n1;
+stepper[1] = n2;
+stepper[2] = n3;
+stepper[3] = n4;
 
-var current_key = undefined;
+function setStep(w1, w2, w3, w4){
+	stepper[0].writeSync(w1);
+	stepper[1].writeSync(w2);
+	stepper[2].writeSync(w3);
+	stepper[3].writeSync(w4);
+}
+
+function left() {
+    setTimeout(function() {setStep(0,0,0,1);}, 0);
+    setTimeout(function() {setStep(0,0,1,1);}, 5);
+	setTimeout(function() {setStep(0,0,1,0);}, 10);
+	setTimeout(function() {setStep(0,1,1,0);}, 15);
+	setTimeout(function() {setStep(0,1,0,0);}, 20);
+	setTimeout(function() {setStep(1,1,0,0);}, 25);
+	setTimeout(function() {setStep(1,0,0,0);}, 35);
+	setTimeout(function() {setStep(1,0,0,1);}, 40);
+	setTimeout(function() {setStep(0,0,0,1);}, 45);
+    setTimeout(function() {setStep(0,0,1,1);}, 50);
+	setTimeout(function() {setStep(0,0,1,0);}, 55);
+	setTimeout(function() {setStep(0,1,1,0);}, 60);
+	setTimeout(function() {setStep(0,1,0,0);}, 65);
+	setTimeout(function() {setStep(1,1,0,0);}, 70);
+	setTimeout(function() {setStep(1,0,0,0);}, 75);
+	setTimeout(function() {setStep(1,0,0,1);}, 80);
+	setTimeout(function() {setStep(0,0,0,0);}, 85);
+}
+
+function right() {
+	setTimeout(function() {setStep(1,0,0,0);}, 0);
+	setTimeout(function() {setStep(1,1,0,0);}, 5);
+	setTimeout(function() {setStep(0,1,0,0);}, 10);
+	setTimeout(function() {setStep(0,1,1,0);}, 15);
+	setTimeout(function() {setStep(0,0,1,0);}, 20);
+	setTimeout(function() {setStep(0,0,1,1);}, 25);
+	setTimeout(function() {setStep(0,0,0,1);}, 30);
+	setTimeout(function() {setStep(1,0,0,1);}, 35);
+	setTimeout(function() {setStep(1,0,0,0);}, 40);
+	setTimeout(function() {setStep(1,1,0,0);}, 45);
+	setTimeout(function() {setStep(0,1,0,0);}, 50);
+	setTimeout(function() {setStep(0,1,1,0);}, 55);
+	setTimeout(function() {setStep(0,0,1,0);}, 60);
+	setTimeout(function() {setStep(0,0,1,1);}, 65);
+	setTimeout(function() {setStep(0,0,0,1);}, 70);
+	setTimeout(function() {setStep(1,0,0,1);}, 75);
+	setTimeout(function() {setStep(0,0,0,0);}, 80);
+}
+
 
 keypress(process.stdin);
 process.stdin.on('keypress', function (ch, key) {
 	try{
 		switch(key.name){
+			case "o":
+				left();
+				console.log("camera rotating left");
+			break;
+			case "p":
+				right();
+				console.log("camera rotating right");
+			break;
 			case "up":
-				current_key = 0;
-				console.log("up");
-				motor[current_key].writeSync(1);
+				motor_up.writeSync(1);
+				console.log("motor forward")
 			break;
 			case "down":
-				current_key = 1;
-				console.log("down");
-				motor[current_key].writeSync(1);
+				motor_down.writeSync(1);
+				console.log("motor back")
 			break;
-			case "left":
-				current_key = 2;
-				console.log("left");
-				motor[current_key].writeSync(1)
-			break;
-			case "right":
-				current_key = 3;
-				console.log("right");
-				motor[current_key].writeSync(1)
-			break;
+
 			case "space":
-				console.log("space");
-				for (var i = 0; i < 4; i++) {
-					motor[i].writeSync(0);
-				};
+				motor_up.writeSync(0);
+				motor_down.writeSync(0);
+				console.log("stop");
 			break;
-			case "q":
-				console.log("light-front-left on");
-				light_front_left.writeSync(1);
-			break;
-			case "w":
-				console.log("light-front-right on");
-				light_front_right.writeSync(1);
-			break;
+
 			case "a":
-				console.log("rear-lights on");
-				light_rear_left.writeSync(1);
-				light_rear_right.writeSync(1);
+				light_front_left.writeSync(1);
+				light_front_right.writeSync(1);
+				console.log("front light on");
 			break;
 			case "s":
-				console.log("rear-lights off");
-				light_rear_left.writeSync(0);
-				light_rear_right.writeSync(0);
-			break;
-			case "e":
-				console.log("front-lights off");
 				light_front_left.writeSync(0);
 				light_front_right.writeSync(0);
+				console.log("front light off");
 			break;
+
+			case "z":
+				light_rear_left.writeSync(1);
+				light_rear_right.writeSync(1);
+				console.log("rear light on");
+			break;
+			case "x":
+				light_rear_left.writeSync(0);
+				light_rear_right.writeSync(0);
+				console.log("rear light off");
+			break;
+
 		}	
 
 	}catch(error){
