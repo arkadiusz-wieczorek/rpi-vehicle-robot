@@ -17,16 +17,11 @@ var GPIO = require('onoff').Gpio,
 
 enable_1.writeSync(1);
 
-stepper[0] = n1;
-stepper[1] = n2;
-stepper[2] = n3;
-stepper[3] = n4;
-
 function setStep(w1, w2, w3, w4){
-	stepper[0].writeSync(w1);
-	stepper[1].writeSync(w2);
-	stepper[2].writeSync(w3);
-	stepper[3].writeSync(w4);
+	n1.writeSync(w1);
+	n2.writeSync(w2);
+	n3.writeSync(w3);
+	n4.writeSync(w4);
 }
 
 function left() {
