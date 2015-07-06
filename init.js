@@ -25,23 +25,14 @@ function setStep(w1, w2, w3, w4){
 }
 
 function left() {
-    setTimeout(function() {setStep(0,0,0,1);}, 0);
-    setTimeout(function() {setStep(0,0,1,1);}, 5);
+    	setTimeout(function() {setStep(0,0,0,1);}, 0);
+    	setTimeout(function() {setStep(0,0,1,1);}, 5);
 	setTimeout(function() {setStep(0,0,1,0);}, 10);
 	setTimeout(function() {setStep(0,1,1,0);}, 15);
 	setTimeout(function() {setStep(0,1,0,0);}, 20);
 	setTimeout(function() {setStep(1,1,0,0);}, 25);
-	setTimeout(function() {setStep(1,0,0,0);}, 35);
-	setTimeout(function() {setStep(1,0,0,1);}, 40);
-	setTimeout(function() {setStep(0,0,0,1);}, 45);
-    setTimeout(function() {setStep(0,0,1,1);}, 50);
-	setTimeout(function() {setStep(0,0,1,0);}, 55);
-	setTimeout(function() {setStep(0,1,1,0);}, 60);
-	setTimeout(function() {setStep(0,1,0,0);}, 65);
-	setTimeout(function() {setStep(1,1,0,0);}, 70);
-	setTimeout(function() {setStep(1,0,0,0);}, 75);
-	setTimeout(function() {setStep(1,0,0,1);}, 80);
-	setTimeout(function() {setStep(0,0,0,0);}, 85);
+	setTimeout(function() {setStep(1,0,0,0);}, 30);
+	setTimeout(function() {setStep(1,0,0,1);}, 35);
 }
 
 function right() {
@@ -53,15 +44,6 @@ function right() {
 	setTimeout(function() {setStep(0,0,1,1);}, 25);
 	setTimeout(function() {setStep(0,0,0,1);}, 30);
 	setTimeout(function() {setStep(1,0,0,1);}, 35);
-	setTimeout(function() {setStep(1,0,0,0);}, 40);
-	setTimeout(function() {setStep(1,1,0,0);}, 45);
-	setTimeout(function() {setStep(0,1,0,0);}, 50);
-	setTimeout(function() {setStep(0,1,1,0);}, 55);
-	setTimeout(function() {setStep(0,0,1,0);}, 60);
-	setTimeout(function() {setStep(0,0,1,1);}, 65);
-	setTimeout(function() {setStep(0,0,0,1);}, 70);
-	setTimeout(function() {setStep(1,0,0,1);}, 75);
-	setTimeout(function() {setStep(0,0,0,0);}, 80);
 }
 
 
