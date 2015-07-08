@@ -1,5 +1,5 @@
 ### rpi-vehicle-robot
-
+![rpi-vehicle-robot](https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtf1/t31.0-8/11705454_910103572381762_3409729221275922545_o.jpg)
 My second project and first robot on Raspberry Pi 2.
 
 This is vehicle remote robot with rotating camera. Unfortunately no steering axle. Certainly I'll add it in the next project.
@@ -8,10 +8,6 @@ This is vehicle remote robot with rotating camera. Unfortunately no steering axl
 <a href="https://www.youtube.com/watch?v=n8Iob7rcQ94" target="_blank"><img src="https://pbs.twimg.com/media/CG99cQrWoAAWFVe.jpg" 
  width="240" height="180" border="10" /></a>
  
-#####Photo:
-![rpi-vehicle-robot](https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtf1/t31.0-8/11705454_910103572381762_3409729221275922545_o.jpg)
-
-
 ######Used components:
 - Raspberry Pi 2
 - Texas Instruments L293DNE Quadruple Half-H driver
