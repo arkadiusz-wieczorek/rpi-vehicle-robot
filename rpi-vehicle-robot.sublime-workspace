@@ -1,0 +1,1567 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wi",
+				"writeSync"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"tem",
+				"temp_tortoise"
+			],
+			[
+				"temp",
+				"temp_hare"
+			],
+			[
+				"has",
+				"hashlib"
+			],
+			[
+				"pre",
+				"prev_hash_to_search"
+			],
+			[
+				"cure",
+				"current_hash"
+			],
+			[
+				"cur",
+				"current_hash"
+			],
+			[
+				"las",
+				"last_id_tortoise"
+			],
+			[
+				"cu",
+				"current_id_tortoise"
+			],
+			[
+				"last",
+				"last_tortoise"
+			],
+			[
+				"curr",
+				"current_id_hare"
+			],
+			[
+				"id",
+				"id_hare"
+			],
+			[
+				"hash",
+				"hashes"
+			],
+			[
+				"fin",
+				"findOut"
+			],
+			[
+				"prev",
+				"prev_hare"
+			],
+			[
+				"sta",
+				"start_hash"
+			],
+			[
+				"fed",
+				"feedback_sent_title"
+			],
+			[
+				"em",
+				"empty_fields_title"
+			],
+			[
+				"can",
+				"cancel_typed_data_title"
+			],
+			[
+				"not",
+				"not_found_error_title"
+			],
+			[
+				"aut",
+				"auth_error_title"
+			],
+			[
+				"gel",
+				"geolocation_error_title"
+			],
+			[
+				"geol",
+				"geolocation"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"con",
+				"confirmButton"
+			],
+			[
+				"conf",
+				"confirmButtonText"
+			],
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"plac",
+				"placeholder"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"mie",
+				"miejsce"
+			],
+			[
+				"share",
+				"share_text"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"info",
+				"info_lack_of_places"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"seci",
+				"section_store"
+			],
+			[
+				"inf",
+				"info_share"
+			],
+			[
+				"mod",
+				"module_lang"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"fo",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"par",
+				"parameters"
+			],
+			[
+				"tag",
+				"tagname"
+			],
+			[
+				"default_decision_",
+				"default_decision_tag_content"
+			],
+			[
+				"default_decision_ta",
+				"default_decision_attributes"
+			],
+			[
+				"o",
+				"onopentag"
+			],
+			[
+				"tags",
+				"tags_stack"
+			],
+			[
+				"ke",
+				"keep_content"
+			],
+			[
+				"default_decision_tag",
+				"default_decision_tag_content"
+			],
+			[
+				"mer",
+				"merged_params"
+			],
+			[
+				"deco",
+				"decoded_value"
+			],
+			[
+				"de",
+				"default_decision"
+			],
+			[
+				"d",
+				"default_decision"
+			],
+			[
+				"sa",
+				"sanitized"
+			],
+			[
+				"at",
+				"attributes"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"che",
+				"check_fragment"
+			],
+			[
+				"dec",
+				"decision"
+			],
+			[
+				"san",
+				"sanitized"
+			],
+			[
+				"tags_",
+				"tags_keep"
+			],
+			[
+				"atr",
+				"attributes"
+			],
+			[
+				"on",
+				"ontext"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"def",
+				"default_decisin"
+			],
+			[
+				"pars",
+				"parser2"
+			],
+			[
+				"op",
+				"onopentag"
+			],
+			[
+				"params",
+				"params_sets"
+			],
+			[
+				"ce",
+				"cleaned"
+			],
+			[
+				"hmtl",
+				"htmlparser"
+			],
+			[
+				"remo",
+				"removeAttrs"
+			],
+			[
+				"stri",
+				"stripAttributes"
+			],
+			[
+				"va",
+				"value_in_database"
+			],
+			[
+				"all",
+				"allowed"
+			],
+			[
+				"strip",
+				"stripAttributes"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"in",
+				"input_value"
+			],
+			[
+				"vale",
+				"values"
+			],
+			[
+				"me",
+				"method_name"
+			],
+			[
+				"ec",
+				"encoded_value"
+			],
+			[
+				"enc",
+				"encoded_value"
+			],
+			[
+				"fiel",
+				"field_type_html"
+			],
+			[
+				"nau",
+				"naugthy"
+			],
+			[
+				"fi",
+				"field_type_html"
+			],
+			[
+				"na",
+				"naugthyStrings"
+			],
+			[
+				"nag",
+				"naugthyStrings"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"des",
+				"describe"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"is",
+				"is_proper_value"
+			],
+			[
+				"new",
+				"new_value"
+			],
+			[
+				"val",
+				"value_in_database"
+			],
+			[
+				"ne",
+				"new_value"
+			],
+			[
+				"sani",
+				"sanitizeHtml"
+			],
+			[
+				"al",
+				"allowedTags"
+			],
+			[
+				"dea",
+				"default_params"
+			],
+			[
+				"char",
+				"chars_in_line"
+			],
+			[
+				"ma",
+				"malicious_html"
+			],
+			[
+				"st",
+				"stripped"
+			],
+			[
+				"cw",
+				"cwun	React: componentWillUnmount: fn() { ... }"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"En",
+				"EventEmitter"
+			],
+			[
+				"rea",
+				"readAndStoreEntries"
+			],
+			[
+				"re",
+				"req	require"
+			],
+			[
+				"get",
+				"getDOMNode"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"ge",
+				"geoData"
+			],
+			[
+				"Route",
+				"Router"
+			],
+			[
+				"Not",
+				"NotFoundRoute"
+			],
+			[
+				"Ro",
+				"Router"
+			],
+			[
+				"R",
+				"Redirect"
+			],
+			[
+				"Cu",
+				"CurrencyListElement"
+			],
+			[
+				"pl",
+				"place"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"pla",
+				"place_detail"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "init.js",
+			"settings":
+			{
+				"buffer_size": 3413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "servo.js",
+			"settings":
+			{
+				"buffer_size": 1478,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mvn.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mvn.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 276.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall ",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"set sy mar",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"markdown",
+				"Build With: Markdown"
+			],
+			[
+				"ma",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"JS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"che",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"set syntax mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdo",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ste thml",
+				"Set Syntax: HTML"
+			],
+			[
+				"jtml",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"loca",
+				"Snippet: JS - localStorage"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Babel Transform"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rce",
+				"Snippet: reactClass"
+			],
+			[
+				"jsx",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"react",
+				"Snippet: React: this.refs."
+			],
+			[
+				"scs",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 482.0
+	},
+	"console":
+	{
+		"height": 129.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/arkadiusz/Projects/rpi-vehicle-robot"
+	],
+	"file_history":
+	[
+		"/home/arkadiusz/Projects/rpi-vehicle-robot/test.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app-py/app.py",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app/hashes.log",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app/check.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app/backup-app.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app/app.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/app-py/hashes.log",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/index.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/index-without-cut.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/bif.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/hashes-1.log",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/hashes.log",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/check.js",
+		"/home/arkadiusz/Documents/studia/BIF/ex5/hashes-without-cut.log",
+		"/home/arkadiusz/Desktop/code.php",
+		"/home/arkadiusz/code.php",
+		"/home/arkadiusz/Desktop/index.html",
+		"/home/arkadiusz/Documents/studia/TSI/8-uzytecznosc/ex2.mdown",
+		"/home/arkadiusz/Documents/studia/TSI/6-wyklad/prototype.md",
+		"/home/arkadiusz/Documents/studia/TSI/integracja/integracja.md",
+		"/home/arkadiusz/Documents/answers-job.txt",
+		"/home/arkadiusz/Documents/katalog-pyrkon/lib/field-types/author.js",
+		"/home/arkadiusz/Documents/katalog-pyrkon/lib/field-types/rola.js",
+		"/home/arkadiusz/Documents/katalog-pyrkon/lib/resource-types/kategoria-wystawcy.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-view.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-view-by-hashtag.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/shared-box.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/navigation.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-share.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-find.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-add.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/photo-box.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/not-found.jsx",
+		"/home/arkadiusz/Projects/Placetag/node_modules/react-router/lib/Navigation.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/marker.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/map.jsx",
+		"/home/arkadiusz/Projects/Placetag/node_modules/pseudomap/map.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/loading.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/home-page.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/hashtags.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/geolocation.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/geolocation-control.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/feedback-box.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/counter-places.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/container.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-view.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/routes.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/geocoder.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-edit.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/app.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/i18n.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/alerts.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/model.js",
+		"/home/arkadiusz/Documents/osx/Code for Virtualbox.txt",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/alert.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/first-section.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/cookies-page.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/cookie-box.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/category-select.jsx",
+		"/home/arkadiusz/Documents/studia/TSI/opisy",
+		"/home/arkadiusz/Documents/studia/TSI/biznesplan.md",
+		"/home/arkadiusz/Projects/workshops-sealcode/rest/login.html",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/shared-place.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/registrationbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-category.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-view-element.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/category-tree.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-view-by-category.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/userbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/node_modules/sealious-www-server/use/channel.www_server.js",
+		"/home/arkadiusz/Projects/Placetag/.gitignore",
+		"/home/arkadiusz/.cache/.fr-03nNCC/META-INF/com/google/android/update-binary",
+		"/home/arkadiusz/.cache/.fr-ii0nFL/META-INF/com/google/android/updater-script",
+		"/home/arkadiusz/Downloads/podsumowanie-spotkania.md",
+		"/home/arkadiusz/Projects/sealious/sealious/tests/unit-tests/field-type.html.test.js",
+		"/home/arkadiusz/Projects/sealious/sealious/lib/base-chips/field_type.text.js",
+		"/home/arkadiusz/Projects/warsztaty-website/themes/very-simple/source/css/very-simple.scss",
+		"/home/arkadiusz/Projects/warsztaty-website/themes/very-simple/layout/post.jade",
+		"/home/arkadiusz/Projects/warsztaty-website/themes/very-simple/layout/base.jade",
+		"/home/arkadiusz/Projects/warsztaty-website/source/_posts/o-warsztatach.md",
+		"/home/arkadiusz/Projects/Placetag/src/css/style-app.css",
+		"/home/arkadiusz/Projects/Sealious/sealious/package.json",
+		"/home/arkadiusz/Projects/Sealious/hello-world/index.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/tests/unit-tests/field-type.html.test.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/base-chips/field_type.html.js",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/arkadiusz/Projects/arkadiusz-wieczorek.github.io/index.html",
+		"/home/arkadiusz/Projects/arkadiusz-wieczorek.github.io/.git/MERGE_MSG",
+		"/home/arkadiusz/Projects/Sealious/sealious/node_modules/remove-attributes/removeAttributes.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/docs/field-types-html.md",
+		"/home/arkadiusz/Projects/Sealious/sealious.github.io/index.html",
+		"/home/arkadiusz/Projects/Sealious/sealious/docs/field-types.md",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/base-chips/field_type.text.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/tests/unit-tests/field-type.text.test.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/tests/unit-tests/user-manager.test.js",
+		"/home/arkadiusz/Desktop/prezentacja/prezentacja-bezpieczenstwo/phishing-mail.html",
+		"/home/arkadiusz/Projects/Sealious/sealious/.git/MERGE_MSG",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/base-chips/resource_type.user.js",
+		"/home/arkadiusz/Projects/Sealious/test.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/.git/COMMIT_EDITMSG",
+		"/home/arkadiusz/Desktop/prezentacja/internet",
+		"/home/arkadiusz/Desktop/prezentacja/prezentacja-bezpieczenstwo/bezp.md",
+		"/home/arkadiusz/Desktop/prezentacja/prepared-mbank/mBank serwis transakcyjny.html",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/arkadiusz/Desktop/internet",
+		"/home/arkadiusz/Desktop/phishing-mail.html",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/core-services/user_manager.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/core-services/file-manager.js",
+		"/home/arkadiusz/Projects/Sealious/sealious/lib/base-chips/_base-chips.js",
+		"/home/arkadiusz/Desktop/testing-strings",
+		"/home/arkadiusz/Projects/Sealious/sealious/tests/unit-tests/naugthy-strings",
+		"/home/arkadiusz/Projects/Sealious/sealious/tests/unit-tests/field-type.datetime.test.js",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/zolwik/skrypt.sh",
+		"/home/arkadiusz/Desktop/blns.txt",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/aero2.sh",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-4/GRK/CopyOfOBJ2XML.java",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-4/FIZ/Fizyka_Zadanie.txt",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/dariusz/plik2",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/dariusz/skrypt1",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/dariusz/plik1",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/zolwik/skrypt_z_opisem.sh",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/SOP/ćwiczenia/inne/kolo_macut.txt",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/PIS/ćwiczenia/organizer v0.2/index.php",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/PIS/ćwiczenia/php2/kuba.php",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-3/PIS/ćwiczenia/p3_test/json.php",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-2/NIF/Transform/src/transform/Transform.java",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-2/Drukarka/drukarka.sh",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-2/Drukarka/smieci/nify.cpp"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			".",
+			"",
+			"src/js/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"L293DNE",
+			"'),\n",
+			"on",
+			"();\n",
+			"step",
+			"}\n",
+			"n4",
+			"n3",
+			"ddB",
+			"n2",
+			"n1",
+			"i",
+			"i.",
+			"step",
+			"w",
+			"(w",
+			"6",
+			"\n}",
+			"floyd",
+			"while'",
+			"while",
+			"!==",
+			"console.log",
+			"!==",
+			"var",
+			";",
+			"hexStr",
+			"eeeeeeeeeeeeeee",
+			"hash",
+			"6",
+			"current_hash",
+			"6",
+			"0,6)",
+			"(0, 6)",
+			"]))\n",
+			"var current_id_tortoise = 0;\nvar current_id_hare = 1;",
+			"\n	",
+			"tortoise",
+			"		\n",
+			"(hashes",
+			"prev_",
+			"tortoise",
+			"puhs",
+			"\n		",
+			"riteFile(\"hashes.log\", \"Hey there!\", function(err) {\n	    if(err) {\n	        return console.log(err);\n	    }\n\n	    console.log(\"The file was saved!\");\n	}); ",
+			"POST",
+			" ",
+			". ",
+			". B",
+			"- ",
+			"możliwość",
+			"Datastore",
+			"button {",
+			"button{",
+			"button",
+			"buttons",
+			"this",
+			"OS X Name",
+			"Name",
+			"OS X NAME",
+			"alert",
+			"this",
+			"alert",
+			"this",
+			"eeeeeeeeeeeee",
+			"Alerty",
+			"Placetag.Alert",
+			"alert",
+			"Alert",
+			"showConfirm",
+			"confirmButton: \"OK",
+			"mode",
+			"placeholder",
+			"placeholder_name",
+			"category_tree",
+			"icon",
+			"terms",
+			"this.props.lang",
+			"findLanguage",
+			"input",
+			"ass",
+			"Things",
+			"qsofmxdgwo",
+			"nhi0fhac11",
+			"username",
+			"\"",
+			"tags",
+			"tag_content",
+			"attributes",
+			"tags",
+			"attributes",
+			"true",
+			"false",
+			"+",
+			"true",
+			"page.ti",
+			"meta",
+			"is_prop",
+			"utils",
+			"init_parser",
+			"params",
+			" === true",
+			"=== false",
+			"\"remove\"",
+			"\"keep\"",
+			"check_fragment",
+			"attributes_remove",
+			"attributes_keep",
+			"tags_remove",
+			"tags_keep",
+			"html_cleaned",
+			"tags_remove",
+			"tags_keep",
+			"element",
+			"tags_remove",
+			"tags_keep",
+			"header",
+			"(\"",
+			"tagname",
+			"jut",
+			"!==",
+			"parser_remover",
+			"_arra",
+			"parser",
+			"Parser",
+			"parser",
+			"cleaned",
+			"attributes_keep"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" \">\";",
+			"function",
+			"##",
+			"komponentów",
+			"o",
+			" \n",
+			"```",
+			" \n",
+			"null",
+			"2500",
+			"komponentu",
+			"=\"\"></",
+			"count",
+			"a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3238,
+								3238
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1470.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "servo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								410,
+								410
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "rpi-vehicle-robot.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ro",
+				"lib/field-types/rola.js"
+			],
+			[
+				"a",
+				"lib/field-types/author.js"
+			],
+			[
+				"shared-box",
+				"src/js/components/shared-box.jsx"
+			],
+			[
+				"place-v",
+				"src/js/components/place-view.jsx"
+			],
+			[
+				"place-sha",
+				"src/js/components/place-share.jsx"
+			],
+			[
+				"place-fin",
+				"src/js/components/place-find.jsx"
+			],
+			[
+				"place-add",
+				"src/js/components/place-add.jsx"
+			],
+			[
+				"photo-b",
+				"src/js/components/photo-box.jsx"
+			],
+			[
+				"not-f",
+				"src/js/components/not-found.jsx"
+			],
+			[
+				"navi",
+				"node_modules/react-router/lib/Navigation.js"
+			],
+			[
+				"nav",
+				"src/js/components/navigation.jsx"
+			],
+			[
+				"marker",
+				"src/js/components/marker.jsx"
+			],
+			[
+				"map.jsx",
+				"src/js/components/map.jsx"
+			],
+			[
+				"map",
+				"node_modules/pseudomap/map.js"
+			],
+			[
+				"loadin",
+				"src/js/components/loading.jsx"
+			],
+			[
+				"home",
+				"src/js/components/home-page.jsx"
+			],
+			[
+				"hashta",
+				"src/js/components/hashtags.jsx"
+			],
+			[
+				"geolc",
+				"src/js/components/geolocation.jsx"
+			],
+			[
+				"geol",
+				"src/js/components/geolocation-control.jsx"
+			],
+			[
+				"aler",
+				"src/js/modules/alerts.js"
+			],
+			[
+				"i18",
+				"src/js/modules/i18n.js"
+			],
+			[
+				"route",
+				"src/js/components/routes.jsx"
+			],
+			[
+				"feed",
+				"src/js/components/feedback-box.jsx"
+			],
+			[
+				"cookiesp",
+				"src/js/components/cookies-page.jsx"
+			],
+			[
+				"alert",
+				"src/js/modules/alerts.js"
+			],
+			[
+				"hello",
+				"hello-world/index.js"
+			],
+			[
+				"fieldhtml",
+				"sealious/lib/base-chips/field_type.html.js"
+			],
+			[
+				"fieldtext",
+				"sealious/lib/base-chips/field_type.text.js"
+			],
+			[
+				"index.js",
+				"hello-world/index.js"
+			],
+			[
+				"hellow-",
+				"hello-world/index.js"
+			],
+			[
+				"packe",
+				"sealious/package.json"
+			],
+			[
+				"routes",
+				"src/js/components/routes.jsx"
+			],
+			[
+				"rout",
+				"src/js/components/routes.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/warsztaty/warsztaty-www.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1051.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
