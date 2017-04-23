@@ -1,16 +1,17 @@
 ### rpi-vehicle-robot
 
 ![rpi-vehicle-robot](https://raw.githubusercontent.com/arkadiusz-wieczorek/rpi-vehicle-robot/master/image.jpg)
+
 My second project and first robot on Raspberry Pi 2.
 
 This is vehicle remote robot with rotating camera. Unfortunately no steering axle. Certainly I'll add it in the next project.
 
-#####Video:
+##### Video:
 
 <a href="https://www.youtube.com/watch?v=n8Iob7rcQ94" target="_blank"><img src="https://pbs.twimg.com/media/CG99cQrWoAAWFVe.jpg"
  width="240" height="180" border="10" /></a>
 
-######Used components:
+###### Used components:
 
 - Raspberry Pi 2
 - Texas Instruments L293DNE Quadruple Half-H driver
@@ -18,7 +19,7 @@ This is vehicle remote robot with rotating camera. Unfortunately no steering axl
 - Step motor 28BYJ-48 5V
 - Toy motor DC 3,3-5V
 
-######Software:
+###### Software:
 
 - Raspbian (2015-05-05) 3.18
 - Node.js 0.12.2
@@ -26,7 +27,7 @@ This is vehicle remote robot with rotating camera. Unfortunately no steering axl
 - control code in JavaScript
 - OpenSSH for remote communication
 
-######USB devices:
+###### USB devices:
 
 - TP-Link TL-WN821N
 - Logitech QuickCam E3560
